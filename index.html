@@ -26,33 +26,53 @@
             </main>
             <footer>
                 <div class="hotOrFly">
-                    <p><span><img src="./assets/img/airplane.png" alt="Airplane"></span>Flight</p>
-                    <p><span><img src="./assets/img/hotel.png" alt="Hotel"></span>Hotel</p>
+                    <p>Flight</p>
+                    <p>Hotel</p>
                 </div>
                 <div class="flights">
-                    <select name="from">
-                        <option value="none">Select</option>
-                        <option value="Dubai">Dubai</option>
-                        <option value="New-York">New</option>
-                        <option value="Kyiv">Kyiv</option>
-                        <option value="Lviv">Lviv</option>
-                        <option value="Warsaw">Warsaw</option>
-                        <option value="Berlin">Berlin</option>
-                        <option value="Paris">Paris</option>
-                        <option value="Tokyo">Tokyo</option>
-                    </select>
-                    <img src="./assets/img/fly.png">
-                    <select name="to">
-                        <option value="none">Select</option>
-                        <option value="Dubai">Dubai</option>
-                        <option value="New-York">New</option>
-                        <option value="Kyiv">Kyiv</option>
-                        <option value="Lviv">Lviv</option>
-                        <option value="Warsaw">Warsaw</option>
-                        <option value="Berlin">Berlin</option>
-                        <option value="Paris">Paris</option>
-                        <option value="Tokyo">Tokyo</option>
-                    </select>
+                    <div class="right">
+                        <div class="from">
+                            <label>Living From</label>
+                            <select name="from">
+                                <option value="none">Select</option>
+                                <option value="Dubai">Dubai</option>
+                                <option value="New-York">New York</option>
+                                <option value="Kyiv">Kyiv</option>
+                                <option value="Lviv">Lviv</option>
+                                <option value="Warsaw">Warsaw</option>
+                                <option value="Berlin">Berlin</option>
+                                <option value="Paris">Paris</option>
+                                <option value="Tokyo">Tokyo</option>
+                            </select>
+                        </div>
+                        <img src="./assets/img/fly.png">
+                        <div class="to">
+                            <label class="to">Going to</label>
+                            <select name="to">
+                                <option value="none">Select</option>
+                                <option value="Dubai">Dubai</option>
+                                <option value="New-York">New York</option>
+                                <option value="Kyiv">Kyiv</option>
+                                <option value="Lviv">Lviv</option>
+                                <option value="Warsaw">Warsaw</option>
+                                <option value="Berlin">Berlin</option>
+                                <option value="Paris">Paris</option>
+                                <option value="Tokyo">Tokyo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="leave">
+                            <label>Leave</label>
+                            <input type="date" name="start-date" id="start-date">
+                        </div>
+                        <img src="./assets/img/calendra.png">
+                        <div class="return">
+                            <label>Return</label>
+                            <input type="date" name="start-date" id="end-date">
+                        </div>
+                    </div>
+                    <button><img src="./assets/img/lupa.png" alt="Lupa"></button>
                 </div>
             </footer>
         </section>
