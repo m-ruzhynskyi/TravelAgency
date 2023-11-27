@@ -246,7 +246,6 @@ body{
 
 #pageTwo header nav{
     display: flex;
-    background-color: white;
     font-family: PoppinsMedium;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.5);
@@ -254,21 +253,35 @@ body{
     height: 66px;
     justify-content: space-around;
     border-radius: 10px;
-    margin-left: 530px;
-}
-
-#pageTwo header nav p:hover{
-    color: white;
-    background-color: rgba(62, 134, 245, 1);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 18px;
-    transition: 90ms;
+    margin: auto;
     cursor: pointer;
 }
 
+#pageTwo header nav p:nth-child(1){
+        color: white;
+        background-color: rgba(62, 134, 245, 1);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 18px;
+}
+
+/*#pageTwo header nav p:hover{*/
+/*    color: white;*/
+/*    background-color: rgba(62, 134, 245, 1);*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    padding: 10px;*/
+/*    border-radius: 18px;*/
+/*    transition: 90ms;*/
+/*}*/
+
 /*#pageTwo header*/
+
+#pageTwo main{
+    margin-bottom: 240px;
+}
+
 #pageTwo main .team, .couple, .family{
     display: flex;
     gap: 20px;
@@ -283,9 +296,6 @@ body{
     border-radius: 50px;
 }
 
-#pageTwo main .team, .couple, .family{
-
-}
 
 #pageTwo main .image{
     display: flex;
@@ -355,4 +365,227 @@ body{
     background-color: rgba(242, 246, 255, 1);
     border-radius: 10px;
     border: none;
+}
+
+/*#pageTwo*/
+
+#pageThree {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 240px;
+}
+
+#pageThree .image > div{
+    position: absolute;
+    background-color: white;
+    border-radius: 35px;
+    padding: 27px;
+}
+
+#pageThree .image div:nth-child(1){
+
+}
+
+#pageThree .image div:nth-child(2){
+
+}
+
+#pageThree .image div:nth-child(3){
+
+}
+#pageThree .image{
+    margin-right: 120px;
+}
+
+#pageThree .text{
+    max-width: 580px;
+}
+
+#pageThree .text h2{
+    font-family: PoppinsSemiBold;
+    font-size: 48px;
+    margin-top: 102px;
+}
+
+#pageThree .text p{
+    font-family: PoppinsRegular;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 200%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#pageThree .text button{
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(62, 134, 245, 1);
+    border-radius: 10px;
+    padding: 23px 34px 23px 34px;
+    font-family: PoppinsRegular;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*#pageThree*/
+
+#pageFour{
+    margin-bottom: 240px;
+}
+
+#pageFour header h1{
+    font-family: PoppinsSemiBold;
+    font-size: 48px;
+    text-align: center;
+}
+
+#pageFour header nav{
+    display: flex;
+    font-family: PoppinsMedium;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 340px;
+    height: 66px;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#pageFour header nav p:nth-child(1){
+    color: white;
+    background-color: rgba(62, 134, 245, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+#pageFour main .cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    justify-content: center;
+}
+
+#pageFour main .card{
+    background-color: white;
+    border-radius: 25px;
+    max-width: 280px;
+    padding: 10px 10px 0 10px
+}
+
+#pageFour main .card .image1{
+    background-image: url("./assets/img/1.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 260px;
+}
+#pageFour main .card .image2{
+    background-image: url("./assets/img/2.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 260px;
+}
+#pageFour main .card .image3{
+    background-image: url("./assets/img/3.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 260px;
+}
+#pageFour main .card .image4{
+    background-image: url("./assets/img/4.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 260px;
+}
+
+#pageFour main .card h3{
+    font-family: PoppinsSemiBold;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#pageFour main .card p{
+    font-family: PoppinsSemiBold;
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgb(0,0,0,0.5);
+    display: flex;
+}
+
+#pageFour main .card p::before{
+    content: "";
+    background-image: url("./assets/img/marker.png");
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+}
+
+/*#pageFour*/
+
+
+#pageFive main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+#pageFive main div{
+    background: url("./assets/img/planet.png");
+    width: 1180px;
+    height: 500px;
+}
+
+#pageFive main div h2{
+    font-family: PoppinsSemiBold;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    margin-top: 114px;
+}
+
+#pageFive main div button{
+    margin-left: 480px;
+    margin-top: 40px;
+    background: white;
+    color: rgba(62, 134, 245, 1);
+    font-family: PoppinsMedium;
+    font-size: 20px;
+    padding: 25px 30px 25px 30px;
+    border-radius: 25px;
+}
+
+#pageFive footer{
+    display: flex;
+    margin-left: 19%;
+    margin-right: 19%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pageFive footer h3{
+    font-family: PoppinsMedium;
+    font-size: 20px;
+    color: rgba(0,0,0, 0.5);
+}
+
+#pageFive footer .butts{
+    display: flex;
+    gap: 50px;
+    font-family: PoppinsMedium;
+    font-size: 24px;
+}
+
+
+#pageFive footer .butts a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
 }
